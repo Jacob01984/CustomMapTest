@@ -11,6 +11,7 @@
 		BA3545AC2A6DB678000EC6EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3545AB2A6DB678000EC6EC /* ContentView.swift */; };
 		BA3545AE2A6DB679000EC6EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA3545AD2A6DB679000EC6EC /* Assets.xcassets */; };
 		BA3545B12A6DB679000EC6EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA3545B02A6DB679000EC6EC /* Preview Assets.xcassets */; };
+		BA3545BA2A6DB6A0000EC6EC /* MapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3545B92A6DB6A0000EC6EC /* MapKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BA3545AB2A6DB678000EC6EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA3545AD2A6DB679000EC6EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA3545B02A6DB679000EC6EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA3545B92A6DB6A0000EC6EC /* MapKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,8 @@
 			children = (
 				BA3545A92A6DB678000EC6EC /* CustomMapTestApp.swift */,
 				BA3545AB2A6DB678000EC6EC /* ContentView.swift */,
+				BA3545B72A6DB685000EC6EC /* MapKit */,
+				BA3545B82A6DB68B000EC6EC /* MapBox */,
 				BA3545AD2A6DB679000EC6EC /* Assets.xcassets */,
 				BA3545AF2A6DB679000EC6EC /* Preview Content */,
 			);
@@ -65,6 +69,21 @@
 				BA3545B02A6DB679000EC6EC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA3545B72A6DB685000EC6EC /* MapKit */ = {
+			isa = PBXGroup;
+			children = (
+				BA3545B92A6DB6A0000EC6EC /* MapKit.swift */,
+			);
+			path = MapKit;
+			sourceTree = "<group>";
+		};
+		BA3545B82A6DB68B000EC6EC /* MapBox */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MapBox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +158,7 @@
 			files = (
 				BA3545AC2A6DB678000EC6EC /* ContentView.swift in Sources */,
 				BA3545AA2A6DB678000EC6EC /* CustomMapTestApp.swift in Sources */,
+				BA3545BA2A6DB6A0000EC6EC /* MapKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
